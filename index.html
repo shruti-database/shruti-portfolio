@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shruti Sharma — Database Designer & Manager</title>
+  <meta name="description"
+    content="Portfolio of Shruti Sharma — Database Designer & Manager. SQL • MongoDB • Data Modeling • Performance Tuning." />
+  <meta name="theme-color" content="#0b1220" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Space+Grotesk:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <!-- ===== HEADER ===== -->
+  <header id="siteHeader">
+    <div class="container nav">
+      <a href="#about" class="brand" aria-label="Go to About">
+        <span class="monogram" aria-hidden="true">SS</span>
+        <span class="brand-name">Shruti Sharma</span>
+      </a>
+      <div class="actions">
+        <button class="header-btn icon" id="themeToggle" aria-label="Toggle theme">🌓 Theme</button>
+        <a class="header-btn" href="./shruti_sharma_Resume.pdf" download>Download Resume</a>
+        <nav class="menu" aria-label="Primary">
+          <a href="#work">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="header-spacer" id="headerSpacer"></div>
+
+  <!-- ===== HERO ===== -->
+  <main class="hero container">
+    <div class="hero-grid">
+      <section class="card reveal">
+        <h1>Clean Data. Fast Queries. Reliable Systems.</h1>
+        <p class="muted"><strong>Shruti Sharma</strong> — Database Designer & aspiring DB Manager. I design normalized
+          schemas, write efficient SQL, and model data for scalable apps (SQL + MongoDB).</p>
+        <div class="badges">
+          <span class="badge">Data Modeling</span>
+          <span class="badge">SQL (DDL/DML)</span>
+          <span class="badge">MongoDB</span>
+          <span class="badge">Indexes & Joins</span>
+          <span class="badge">Query Optimization</span>
+          <span class="badge">Backup & Recovery (basics)</span>
+        </div>
+        <div style="display:flex;gap:10px;margin-top:16px">
+          <a class="btn primary" href="#work">View Projects</a>
+          <a class="btn" href="#contact">Contact</a>
+        </div>
+      </section>
+      <aside class="card reveal">
+        <h2 style="margin-top:0">Quick Info</h2>
+        <div class="two" style="grid-template-columns:1fr 1fr; gap:12px">
+          <div class="stat">
+            <div class="muted">Role</div>
+            <div style="font-weight:800">Database Designer</div>
+          </div>
+          <div class="stat">
+            <div class="muted">Experience</div>
+            <div style="font-weight:800">Fresher</div>
+          </div>
+          <div class="stat">
+            <div class="muted">Stack</div>
+            <div style="font-weight:800">SQL · MongoDB · C</div>
+          </div>
+          <div class="stat">
+            <div class="muted">Location</div>
+            <div style="font-weight:800">Delhi</div>
+          </div>
+        </div>
+        <p class="muted" style="margin-top:12px">Hindi · English</p>
+      </aside>
+    </div>
+  </main>
+
+  <!-- ===== PROJECTS (4) ===== -->
+  <section id="work" class="section container">
+    <h2>Database Projects</h2>
+    <p class="muted">Sample database work—links can point to GitHub, PDFs, or screenshots.</p>
+    <div class="grid">
+      <article class="project reveal">
+        <div class="thumb" aria-hidden="true">ERD</div>
+        <strong>Retail Inventory ER Model</strong>
+        <p class="muted">3NF schema for products, vendors, stock & orders; constraints + indexes.</p>
+        <div class="links">
+          <a class="btn primary" href="#" target="_blank" rel="noreferrer">Schema</a>
+          <a class="btn" href="#" target="_blank" rel="noreferrer">SQL Scripts</a>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <div class="thumb" aria-hidden="true">ETL</div>
+        <strong>ETL Pipeline to Reports</strong>
+        <p class="muted">CSV→staging→star schema; aggregate views for monthly sales KPIs.</p>
+        <div class="links">
+          <a class="btn primary" href="#" target="_blank" rel="noreferrer">Overview</a>
+          <a class="btn" href="#" target="_blank" rel="noreferrer">DDL/DML</a>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <div class="thumb" aria-hidden="true">INDEX</div>
+        <strong>Query Performance Tuning</strong>
+        <p class="muted">EXPLAIN plans, composite indexes, and caching → 5× speedup.</p>
+        <div class="links">
+          <a class="btn primary" href="#" target="_blank" rel="noreferrer">Case Study</a>
+          <a class="btn" href="#" target="_blank" rel="noreferrer">Before/After</a>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <div class="thumb" aria-hidden="true">NoSQL</div>
+        <strong>MongoDB Product Catalog</strong>
+        <p class="muted">Document model with references/embedded subdocs & aggregation.</p>
+        <div class="links">
+          <a class="btn primary" href="#" target="_blank" rel="noreferrer">Aggregation</a>
+          <a class="btn" href="#" target="_blank" rel="noreferrer">Data Model</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section container">
+    <h2>Skills & Tools</h2>
+    <div class="two">
+      <div class="card reveal">
+        <h3>Databases</h3>
+        <div class="list">
+          <span class="chip">SQL</span>
+          <span class="chip">MongoDB</span>
+          <span class="chip">Relational Modeling</span>
+          <span class="chip">Normalization (1NF–3NF)</span>
+          <span class="chip">Constraints & FKs</span>
+        </div>
+        <h3 style="margin-top:16px">Core Concepts</h3>
+        <div class="list">
+          <span class="chip">Indexes</span>
+          <span class="chip">Joins</span>
+          <span class="chip">Transactions (basics)</span>
+          <span class="chip">Backups (basics)</span>
+        </div>
+      </div>
+      <div class="card reveal">
+        <h3>Languages & Others</h3>
+        <div class="list">
+          <span class="chip">C</span>
+          <span class="chip">Shell Basics</span>
+          <span class="chip">Excel/Sheets</span>
+          <span class="chip">Git & GitHub</span>
+        </div>
+        <h3 style="margin-top:16px">Soft Skills</h3>
+        <div class="list">
+          <span class="chip">Documentation</span>
+          <span class="chip">Attention to Detail</span>
+          <span class="chip">Teamwork</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section container">
+    <h2>About</h2>
+    <div class="two">
+      <div class="card reveal">
+        <h3>Summary</h3>
+        <p class="muted">Motivated, detail-focused Database Designer with foundation in database concepts, SQL, MongoDB
+          & data modeling. Passionate about learning new DB tech & optimizing data workflows.</p>
+      </div>
+      <div class="card reveal">
+        <h3>Education</h3>
+        <p class="muted" style="margin:0">
+          10th — Sarvodaya Kanya Vidyalaya (CBSE)<br />
+          12th — Sarvodaya Kanya Vidyalaya (CBSE)<br />
+          Advance Diploma in Computer Engineering — IICS<br />
+          B.A. (English Hons) — Delhi University SOL (2023–2025)
+        </p>
+        <h3 style="margin-top:12px">Languages</h3>
+        <p class="muted">Hindi, English</p>
+        <h3 style="margin-top:12px">Address</h3>
+        <p class="muted">907/59 Lekhu Nagar, Tri Nagar, Delhi–110035</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section container">
+    <h2>Contact</h2>
+    <div class="contact-grid">
+      <div class="card reveal">
+        <h3>Let’s talk databases</h3>
+        <p class="muted">This form uses <em>mailto:</em> (no backend). Your email app will open with the details.</p>
+        <form id="contactForm" action="https://formspree.io/f/xrbagqar" method="POST">
+          <label class="sr-only" for="name">Name</label>
+          <input id="name" name="name" placeholder="Your name" required>
+
+          <label class="sr-only" for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="Your email" required>
+
+          <label class="sr-only" for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Project / role / query" required></textarea>
+
+          <input type="hidden" name="_subject" value="New message — Shruti Portfolio" />
+          <!-- debug ke liye pehle honeypot skip rakho; baad me add kar sakte ho -->
+          <!-- <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" /> -->
+
+          <button class="btn primary" type="submit" id="submitBtn">Send Message</button>
+          <p id="formStatus" class="muted" style="margin-top:8px;"></p>
+        </form>
+      </div>
+      <aside class="card reveal">
+        <h3>Direct</h3>
+        <p>📧 <a href="mailto:ishrutisharma55@gmail.com">ishrutisharma55@gmail.com</a></p>
+        <p>📞 <a href="tel:+919560800323">+91 95608 00323</a></p>
+        <p>📍 Delhi, India</p>
+      </aside>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">©️ <span id="year"></span> Shruti Sharma — Database Designer & Manager</div>
+  </footer>
+
+  <!-- Person schema for basic SEO -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Shruti Sharma",
+    "jobTitle":"Database Designer & Manager",
+    "email":"mailto:ishrutisharma55@gmail.com",
+    "telephone":"+919560800323",
+    "address": {
+      "@type":"PostalAddress",
+      "addressLocality":"Delhi",
+      "postalCode":"110035"
+    }
+  }
+  </script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
